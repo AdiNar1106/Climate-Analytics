@@ -1,0 +1,12 @@
+name: TempChanges
+title: TempChanges
+username:
+account: adityanar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2205428
+bundleId: 3078945
+url: https://adityanar.shinyapps.io/TempChanges/
+when: 1588114653.40376
+asMultiple: FALSE
+asStatic: FALSE

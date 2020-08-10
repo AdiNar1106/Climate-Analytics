@@ -1,0 +1,3 @@
+Please copy the following line into the R Console to install the following packages:
+
+install.packages(c("tidyverse", "lubridate", "ggplot2", "plotly", "ggpubr", "TTR", "ggridges", "forecast", "rWBClimate", "ggmap", "maps", "maptools", "choroplethr", "chroplethrMaps", "pander", "shiny", "flexdashboard", "shinydashboard"))

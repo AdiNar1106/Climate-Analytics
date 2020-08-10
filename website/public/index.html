@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
+	<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Climate.DF | Informatics 248 Final Project</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-kit.css" rel="stylesheet" />
+	<style>
+
+		html {
+		scroll-behavior: smooth;
+
+	}
+		.card-signup *{
+		color:#fff !important;
+	}
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #fff !important;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #fff !important;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #fff !important;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: #fff !important;
+	}
+	input::placeholder {
+		color:#fff !important;
+	}
+	/* label underline focus color */
+	   .input-field input[type=text]:focus {
+		 border-bottom: 1px solid #fff;
+		 box-shadow: 0 1px 0 0 #fff;
+	   }
+	   .btn-white{
+		color:#F57768 !important;
+		}
+	.navbar-nav *{
+		color:#fff;
+	}
+	@media screen and (max-width:600px){
+		#gmap_layer, #gmap_canvas{
+			width:100% !important;
+		}
+	}
+	</style>
+
+</head>
+
+<body class="landing-page">
+	<nav class="navbar navbar-transparent navbar-absolute">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> <a class="navbar-brand" href="" target="_blank">
+					<font color=#F35846><strong>Climate.DF</strong></font>
+				</a>
+
+			</div>
+
+			<div class="collapse navbar-collapse" id="navigation-example">
+				<!-- <ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#about">
+							ClimateApp 1
+						</a>
+					</li>
+					<li>
+						<a href="#speakers">
+							ClimateApp 2
+						</a>
+					</li>
+				</ul> -->
+			</div>
+		</div>
+	</nav>
+
+	<div class="wrapper">
+		<div class="header header-filter" style="background-image: url('img/pollution.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<br><br><br>
+						<h1 class="title">Climate.DF</h1>
+						<p>
+							<h4><i>An analysis on climate change on <br> historic and current trends</i></h4>
+							<br />
+							<a href="./climate_analysis.html" class="btn btn-danger btn-raised btn-lg">
+								</i> Climate App
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main main-raised">
+			<div class="container">
+				<div class="section text-center section-landing">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="title" id="about">ABOUT</h2>
+							<h5 class="description">Learn about the project!
+						</div>
+					</div>
+
+					<!-- experimental tabs -->
+					<p>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<div class="profile-tabs">
+									<div class="nav-align-center">
+									<p class="description">Climate.DF is a project which will focus on the theme of climate change and more specifically, how climate has changed over the years, and how it will change in the future. We are focusing on different accurate and comprehendable visualizations and portraying how factors like <strong> temperature, carbon dioxide, and different natural gases</strong> disrupt climate patterns. Through <strong>regression modeling and time series analysis</strong>, we aim to forecast future patterns of climate and provide methods to control climate change using statistical methods. 
+										<p class="description">We aim to showcase prehistoric climate changes in an interactive Shiny Application where the user can select a start and end data and view different temperature changes over the years. We are interested in showcasing different statistics to portray how <strong>climate has changed over different geographies</strong>. With respect to time-series analysis, we aim to do a global forecast of temperature to give our viewers an idea of the different <strong>global temperature changes and use ARIMA models</strong> to forecast future temperature changes. Using effective visualizations of maps, we aim to show how different anomalies like temperatures and precipitation change with different continents or countries.
+									</p>
+									<br>
+									<h5 class="title">Data Sources</h5>
+									
+										<a href="http://berkeleyearth.org/data/" target="_blank">Berkeley Earth Temperature Data</a>
+										<br>
+										<a href="https://climateknowledgeportal.worldbank.org/download-data" target="_blank">World Bank Climate Data</a>
+										<br>
+										<a href="https://www.kaggle.com/vageeshabudanur/riseintemp-dataset" target="_blank">Rise in Temperatures Data </a>
+										<br>
+										<a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api" target="_blank">World Bank API</a>
+									</div>
+								
+									
+								
+								</div>
+								
+								<!-- End Profile Tabs -->
+							</div>
+						</div>
+
+
+							<div class="features">
+								<div class="row">
+									<div class="col-md-4">
+										<!-- <div class="info">
+									<div class="icon icon-primary">
+										<i class="material-icons">chat</i>
+									</div>
+									<h4 class="info-title">First Feature</h4>
+									<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+								</div>
+		                    </div>
+		                    <div class="col-md-4">
+								<div class="info">
+									<div class="icon icon-success">
+										<i class="material-icons">verified_user</i>
+									</div>
+									<h4 class="info-title">Second Feature</h4>
+									<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+								</div>
+		                    </div>
+		                    <div class="col-md-4">
+								<div class="info">
+									<div class="icon icon-danger">
+										<i class="material-icons">fingerprint</i>
+									</div>
+									<h4 class="info-title">Third Feature</h4>
+									<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+								</div> -->
+									</div>
+								</div>
+							</div>
+				</div>
+
+				<div class="section text-center">
+					<h2 class="title" id="speakers">Team</h2>
+					<h5 class="description">The people behind the project</h5>
+					<div class="team">
+						<div class="row">
+						
+							<div class="col-md-2"></div>
+							<div class="col-md-4">
+								<div class="team-player">
+									<img src="assets/img/abhinav.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+									<h4 class="title">Abhinav Tripathy<br />
+										<!-- <small class="text-muted">Founder</small> -->
+									</h4>
+									<p class="description">Abhinav is a Web Developer who has a deep interest in Cloud Computing and looks forward to entering research & development in industry.</p>
+									<!-- <a href="" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
+									<a href="" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a> -->
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="team-player">
+									<img src="assets/img/aditya.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+									<h4 class="title">Aditya Narayanan<br />
+										<!-- <small class="text-muted">Author</small> -->
+									</h4>
+									<p class="description">Aditya is an aspiring Data Scientist/Engineer who has a deep interest in Machine Learning and looks forward to entering the industry as a data professional.</p>
+									<!-- <a href="" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
+									<a href="" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<!-- <nav class="pull-left">
+					<ul>
+
+						<li>
+							<a href="credit.html" target="_blank">
+								Image Credit
+							</a>
+						</li>
+
+					</ul>
+				</nav> -->
+				<div class="copyright pull-right">
+					&copy; 2020, made with <i class="fa fa-heart heart"></i> by <a href="" target="_blank">Team Climate.DF</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js"></script>
+
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+<script>
+	$(document).ready(function() {
+		$("#regform").submit(function() {
+			var name = $("#reg_name").val();
+			var email = $("#reg_email").val();
+			var phone = $("#reg_phone").val();
+			var school = $("#reg_school").val();
+			if (name.length < 3) {
+				alert("Enter Name");
+			} else if (email.length < 3) {
+				alert("Enter Email");
+			} else if (phone.length < 3) {
+				alert("Enter Phone");
+			} else if (school.length < 3) {
+				alert("Enter School");
+			} else {
+				$.ajax({
+					url: 'https://script.google.com/macros/s/AKfycbywMH5oWOrDfXrOicg7iLc6cOk9dY71NoEfn-ncxKsspbYmypC0/exec',
+					method: "POST",
+					data: {
+						"name": name,
+						"email": email,
+						"phone": phone,
+						"school": school
+					},
+					success: function(response) {
+
+						if (response.result == "success") {
+							alert("Registered Successfully!");
+						} else {
+							alert("Failed to register! Please try again!");
+						}
+
+					},
+					error: function(response) {
+						alert("Error Occured! Please try again!");
+					}
+				});
+			}
+			return false;
+		});
+		$("#contactform").submit(function() {
+			var name = $("#cf_name").val();
+			var email = $("#cf_email").val();
+			var message = $("#cf_message").val();
+			if (name.length < 3) {
+				alert("Enter Name");
+			} else if (email.length < 3) {
+				alert("Enter Email");
+			} else if (message.length < 3) {
+				alert("Enter Message");
+			} else {
+				$.ajax({
+					url: 'https://script.google.com/macros/s/AKfycbycPXTgHtTR7wU_3DjPMfLyzsrB54IFUEK5K3noFw/exec',
+					method: "POST",
+					data: {
+						"name": name,
+						"email": email,
+						"message": message
+					},
+					success: function(response) {
+
+						if (response.result == "success") {
+							alert("Message Sent Successfully!");
+						} else {
+							alert("Failed to send message! Please try again!");
+						}
+
+					},
+					error: function(response) {
+						alert("Error Occured! Please try again!");
+					}
+				});
+			}
+			return false;
+		});
+	});
+</script>
+
+</html>

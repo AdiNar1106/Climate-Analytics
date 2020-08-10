@@ -1,0 +1,12 @@
+name: Maps
+title: Maps
+username:
+account: adityanar
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2205512
+bundleId: 3079406
+url: https://adityanar.shinyapps.io/Maps/
+when: 1588125151.82594
+asMultiple: FALSE
+asStatic: FALSE
